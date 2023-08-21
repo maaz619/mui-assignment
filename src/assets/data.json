@@ -1,0 +1,33 @@
+[
+	{
+  	"department": "customer_service",
+  	"sub_departments": [
+    	"support",
+    	"customer_success"
+  	]
+	},
+	{
+  	"department": "design",
+  	"sub_departments": [
+    	"graphic_design",
+    	"product_design",
+    	"web_design"
+  	]
+	},
+    {
+        "department": "marketing",
+        "sub_departments": [
+          "market_analysis",
+          "visualization",
+          "advertising"
+        ]
+      },
+      {
+  	"department": "managment",
+  	"sub_departments": [
+    	"human_resource",
+    	"media_team",
+    	"company_essential"
+  	]
+	}
+  ]
