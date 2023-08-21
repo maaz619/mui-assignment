@@ -59,11 +59,11 @@ const Form = () => {
                 navigate("/")
             }, 4000)
         }
-    }, [])
+    }, [hash])
     return (
         <>
             <Container maxWidth="xs">
-                <Snackbar open={open} autoHideDuration={4000} onClose={() => setOpen(false)}>
+                <Snackbar open={open} autoHideDuration={3000} onClose={() => setOpen(false)}>
                     <Alert onClose={() => { setOpen(false) }} severity="success" sx={{ width: '100%' }}>
                         {hash === '#redirect' ? "Please fill user info !!" : "user access granted"}
                     </Alert>
